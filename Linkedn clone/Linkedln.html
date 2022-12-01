@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedln</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Linkedln.css">
+
+</head>
+
+<body>
+
+    <!--Nav Start-->
+    <nav class="navbar bg-dark navbar-expand-lg ">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <img style="height:38px; width:38px;" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                    alt="Linkedln" class="ms-4 mt-2">
+            </li>
+            <li class="nav-item">
+                <form action="">
+                    <input type="search" placeholder="Arama" name="text" aria-label="Arama"
+                        class="mt-3 ms-4 border border-none">
+                </form>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-home text text-light ms-5 mt-2" aria-hidden="true" style="font-size:17px;"></i>
+                <a href="#" class="nav-link text-light ms-4 pt-1" style="font-size:13px;">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-users text text-light ms-4 mt-2" aria-hidden="true" style="font-size:19px;"></i>
+                <a href="#" class="nav-link text-light ms-3 pt-1" style="font-size:13px;">Ağım</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-briefcase text text-light ms-5 mt-2" aria-hidden="true" style="font-size:19px;"></i>
+                <a href="#" class="nav-link text-light ms-4 pt-1" style="font-size:13px;">İş İlanları</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-commenting text text-light ms-5 mt-2" aria-hidden="true" style="font-size:19px;"></i>
+                <a href="#" class="nav-link text-light ms-3 pt-1" style="font-size:13px;">Mesajlaşma</a>
+            </li>
+            <li class="nav-item">
+                <img src="https://images.pexels.com/users/avatars/101155751/tunahan-dolgun-353.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+                    alt="Foto" style="height:27px; width:27px;" class="border rounded-circle ms-4 mt-1">
+                <a href="#" class="nav-link text-light ms-3 pt-1" style="font-size:12px;">Profilim</a>
+            </li>
+            <div class="dk"></div>
+            <li class="nav-item">
+                <i class="fa fa-bars text text-light ms-5 mt-2" aria-hidden="true" style="font-size:21px;"></i>
+                <a href="#" class="nav-link text-light ms-5 pt-1" style="font-size:13px;">İş</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-laptop text text-light ms-5 mt-2" aria-hidden="true" style="font-size:21px;"></i>
+                <a href="#" class="nav-link text-light ms-4 pt-1" style="font-size:13px;">İş İlanı Yayınla</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Nav End-->
+
+    <!--Container Start-->
+    <div class="container-expand-lg">
+        <div class="row">
+
+            <!--Rigth Side Start-->
+            <div class="col-2">
+                <div class="card" style="width: 16rem;">
+                    <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="card-img-top" alt="Background" style="height:5rem; width:15.9rem;">
+                    <img id="profil"
+                        src="https://images.pexels.com/users/avatars/101155751/tunahan-dolgun-353.jpeg?auto=compress&fit=crop&h=30&w=30&dpr=2"
+                        alt="pexelsprofil" class="border rounded-circle">
+                    <br>
+                    <div class="card-body">
+                        <h6 class="card-text ms-5 mt-2" style="color:rgb(35, 35, 35)">Tuna Dolgun</h6>
+                        <br>
+                        <p class="fw-normal" style="color:gray;">UI/UX Designer - Jr. Front-end Developer</p>
+                        <hr>
+                        <p style="font-size:13px; color:gray;"><strong>Profilinizi kaç kişi görüntüledi </strong> <a
+                                href="#" style="text-decoration:none;"><strong>445</strong></a> </p>
+                        <p class="Pgörüntüleme" style="font-size:13px; color:gray;"><strong>Yayınınız için görüntüleme
+                            </strong> <a href="#" style="text-decoration:none;"><strong>150</strong></a> </p>
+                        <div class="card-footer bg-muted">
+                            <i class="fa fa-bookmark" style="color:rgb(66, 66, 66); font-size:20px;"
+                                aria-hidden="true"></i> <a href="#" style="color:gray; text-decoration:none;"
+                                class="ms-2">Ögelerim</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="card-header">
+                        <p class="ms-3 mt-3" style="color:rgb(103, 103, 103);font-size: large;">
+                            <strong>Sayfalarım</strong>
+                        </p>
+                    </div>
+                    <div class="card-body mb-3">
+                        <img class="ms-2" src="https://picsum.photos/40/40" alt="Lorempicsum">
+                        <a href="#" class="ms-2 "
+                            style="text-decoration:none; color:black; font-size:15px;"><strong>Kablosuz
+                                Beyin</strong></a>
+                        <br>
+                        <p id="SayfaBildirimleri" style="color:gray; font-size:13px;"> <strong>Sayfa
+                                Bildirimleri</strong> <a style="text-decoration:none;" href="#"><strong>10</strong></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <p class="fw-light ms-3 mt-3" style="font-size: 14px;">En Yeni</p>
+                    <div class="card-body">
+                        <ul style="list-style:none;" class="me-5">
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#kodluyoruz</a></li>
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#front-end</a></li>
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#html</a></li>
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#css</a></li>
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#bootstrap</a></li>
+                        </ul>
+                        <a style="text-decoration:none;" href="#" class="d-block">Gruplar</a>
+                        <a style="text-decoration:none;" href="#">Etkinlikler + </a>
+                        <br><br>
+                        <a style="text-decoration:none;" href="#">Takip edilen hashtagler</a>
+                        <ul style="list-style:none;" class="me-5">
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#kodluyoruz</a></li>
+                            <li><a class="" style="text-decoration:none;  color:gray;" href="#">#front-end</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <p class="ms-5 mt-1" style="color:rgb(69, 69, 69);"><strong>Daha Fazla Keşfet</strong></p>
+                    </div>
+                </div>
+            </div>
+            <!--Rigth Side End-->
+
+
+
+            <!--Center Start-->
+            <div class="col-4 ps-5">
+                <div class="card" style="">
+                    <form action="">
+                        <input style="width:300px; height:50px;" type="text"
+                            class="form-control ms-5 mt-4 border rounded-pill" placeholder="Bir Gönderi Başlat">
+                    </form>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-light border border-dark ms-4"> <i class="fa fa-camera"
+                                aria-hidden="true"></i> Fotoğraf </button>
+                        <button type="button" class="btn btn-light border border-dark ms-2"> <i
+                                class="fa fa-video-camera" aria-hidden="true"></i> Video </button>
+                        <button type="button" class="btn btn-light border border-dark ms-2"> <i
+                                class="fa fa-calendar"></i> Etkinlik </button>
+                        <button type="button" style="margin-left:130px;" class="btn btn-light border border-dark mt-2">
+                            <i class="fa fa-pencil-square" aria-hidden="true"></i> Yazı Yaz </button>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <!--Post 1-->
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://picsum.photos/60/60" class="ms-2 mt-2" alt="Lorempicsum">
+                        <a href="#" class="ms-2" style="text-decoration:none; color:black;">
+                            <strong>David J. Malan</strong>
+                        </a>
+                        <p class="fw-normal"
+                            style="font-size:14px; color:gray; position: absolute; margin-left:195px; margin-top: -46px;">
+                            I teach CS50 25a <i class="fas fa-globe-americas fa-sm"></i></p>
+                        <i class="fas fa-ellipsis-h fa-md position-absolute top-0 end-0"></i>
+                    </div>
+                    <div class="card-body">
+                        <p>They have done great things! Tebrikler Kodluyoruz!</p>
+                        <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" style="height:200px; width:375px;"
+                            alt="Lorempicsum">
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
+                                alt=""></span>
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"
+                                alt=""></span>
+                        <span class=""
+                            style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;"><img
+                                src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">958</span>
+                        <br>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark">
+                            <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
+                            </i> Beğen </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"> <i
+                                class="far fa-comment fa-md" style="font-size: 1.2rem">
+                            </i> Yorum Yap </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"><i
+                                class="fas fa-share fa-md" style="font-size: 1.2rem">
+                            </i> Paylaş </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"><i
+                                class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
+                            </i> Gönder </button>
+                    </div>
+                </div>
+                <!--Post 1-->
+                <!--Post 2-->
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <img src="https://picsum.photos/60/60" class="ms-2 mt-2" alt="Lorempicsum">
+                        <a href="#" class="ms-2" style="text-decoration:none; color:black;">
+                            <strong>David J. Malan</strong>
+                        </a>
+                        <p class="fw-normal"
+                            style="font-size:14px; color:gray; position: absolute; margin-left:195px; margin-top: -46px;">
+                            I teach CS50 25a <i class="fas fa-globe-americas fa-sm"></i></p>
+                        <i class="fas fa-ellipsis-h fa-md position-absolute top-0 end-0"></i>
+                    </div>
+                    <div class="card-body">
+                        <p>They have done great things! Tebrikler Kodluyoruz!</p>
+                        <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" style="height:200px; width:375px;"
+                            alt="Lorempicsum">
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
+                                alt=""></span>
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"
+                                alt=""></span>
+                        <span class=""
+                            style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;"><img
+                                src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">958</span>
+                        <br>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark">
+                            <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
+                            </i> Beğen </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"> <i
+                                class="far fa-comment fa-md" style="font-size: 1.2rem">
+                            </i> Yorum Yap </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"><i
+                                class="fas fa-share fa-md" style="font-size: 1.2rem">
+                            </i> Paylaş </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"><i
+                                class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
+                            </i> Gönder </button>
+                    </div>
+                </div>
+                <!--Post 2-->
+                <!--Post 3-->
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <img src="https://picsum.photos/60/60" class="ms-2 mt-2" alt="Lorempicsum">
+                        <a href="#" class="ms-2" style="text-decoration:none; color:black;">
+                            <strong>David J. Malan</strong>
+                        </a>
+                        <p class="fw-normal"
+                            style="font-size:14px; color:gray; position: absolute; margin-left:195px; margin-top: -46px;">
+                            I teach CS50 25a <i class="fas fa-globe-americas fa-sm"></i></p>
+                        <i class="fas fa-ellipsis-h fa-md position-absolute top-0 end-0"></i>
+                    </div>
+                    <div class="card-body">
+                        <p>They have done great things! Tebrikler Kodluyoruz!</p>
+                        <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" style="height:200px; width:375px;"
+                            alt="Lorempicsum">
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb"
+                                alt=""></span>
+                        <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f"
+                                alt=""></span>
+                        <span class=""
+                            style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 13px; color: #474747;"><img
+                                src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">958</span>
+                        <br>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark">
+                            <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem">
+                            </i> Beğen </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"> <i
+                                class="far fa-comment fa-md" style="font-size: 1.2rem">
+                            </i> Yorum Yap </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"><i
+                                class="fas fa-share fa-md" style="font-size: 1.2rem">
+                            </i> Paylaş </button>
+                        <button type="button" class="btn btn-light btn-sm mt-2 border border-dark"><i
+                                class="fas fa-paper-plane fa-md" style="font-size: 1.2rem">
+                            </i> Gönder </button>
+                    </div>
+                </div>
+                <!--Post 3-->
+            </div>
+            <!--Center End-->
+
+
+            <!--Aside Start-->
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <br>
+                    <p class="fw-light ms-3">Akışınıza Ekleyin <span><i class="fa-solid fa-circle-info ms-5"></i></span>
+                    </p>
+                    <div class="card-body">
+                        <img class="ms-2 pb-2" src="https://picsum.photos/50/50" alt="Lorempicsum">
+                        <br>
+                        <a class="ms-2 pt-2" style="text-decoration:none; color:gray;"
+                            href="#"><strong>Codecraft</strong></a>
+                        <button id="btnaside" type="button" style="width: 105px; height:40;"
+                            class="btn btn-light border btn-md border-dark border rounded-pill border border-3"><strong>+
+                                Takip Et</strong></button>
+                        <br>
+                        <br>
+                        <br>
+                        <img class="ms-2 pb-2" src="https://picsum.photos/50/50" alt="Lorempicsum">
+                        <br>
+                        <a class="ms-2 pt-2" style="text-decoration:none; color:gray;"
+                            href="#"><strong>Podfresh</strong></a>
+                        <button id="btnaside" type="button" style="width: 105px; height:40;"
+                            class="btn btn-light border btn-md border-dark border rounded-pill border border-3"><strong>+
+                                Takip Et</strong></button>
+                        <br>
+                        <br>
+                        <br>
+                        <img class="ms-2 pb-2" src="https://picsum.photos/50/50" alt="Lorempicsum">
+                        <br>
+                        <a class="ms-2 pt-2" style="text-decoration:none; color:gray;"
+                            href="#"><strong>Navlungo</strong></a>
+                        <button id="btnaside" type="button" style="width: 105px; height:40;"
+                            class="btn btn-light border btn-md border-dark border rounded-pill border border-3"><strong>+
+                                Takip Et</strong></button>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <p class="mt-4 ms-2 fw-light" style="font-size:14;">Bugünün en çok izlenen eğitimleri <span><i
+                                class="fa-solid fa-circle-info ms-3"></i></span></p>
+                    <br>
+                    <h6 class="ms-2" style="font-size:13.5px;"><strong>1. The Six Morning Habits of High
+                            Perf...</strong></h6>
+                    <p class="fw-light ms-4" style="font-size:12px; color:gray">Pete Mocakatais | How to be awesome at
+                        you..</p>
+                    <h6 class="ms-2" style="font-size:13.5px;"><strong>2. Onconscious Blas</strong></h6>
+                    <p class="fw-light ms-4" style="font-size:12px; color:gray">Stacey Gordon</p>
+                    <h6 class="ms-2" style="font-size:13.5px;"><strong>3. Critical Thinking for Better
+                            Judgme...</strong></h6>
+                    <p class="fw-light ms-4" style="font-size:12px; color:gray">Becki Saltzman</p>
+                    <div class="card-footer">
+                        <a class="ms-3" style="text-decoration:none; font-size:12.5px;" href="#">Linkedin Learning'de
+                            daha fazlasını göster</a>
+                    </div>
+                </div>
+                <ul class="ms-3 mt-1" style=list-style-type:none;">
+                    <li><a class="ms-5" style="text-decoration:none; font-size:13px; color:gray;" href="">Hakkında</a>
+                    </li>
+                    <li><a class="ms-5" style="text-decoration:none; font-size:13px; color:gray;"
+                            href="">Erişilebilirlik</a></li>
+                    <li><a class="ms-5" style="text-decoration:none; font-size:13px; color:gray;" href="">Yardım
+                            Merkezi</a></li>
+                    <li><a class="ms-5" style="text-decoration:none; font-size:13px; color:gray;" href="">Reklam ve
+                            Tercihler</a></li>
+                    <li><a class="ms-5" style="text-decoration:none; font-size:13px; color:gray;" href="">Reklam</a>
+                    </li>
+                </ul>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1280px-LinkedIn_Logo.svg.png"
+                    class="ms-4" style="height: 15px; width:50px;" alt="Linkedin">
+                <p style="font-size: 13px; font-weight:20px; margin-top:-19px; margin-left:85px;" class="fw-light">
+                    Linkedin Corporation © 2021</p>
+            </div>
+            <!--Aside End-->
+
+
+        </div>
+    </div>
+    </div>
+    <!--Container End-->
+
+
+
+    <!--Footer Start-->
+              <!--Footer Start-->
+              <div class="fixed-bottom">
+              <footer class="bg-dark fixed-end pt-1 mt-2" style="width:1385px; height:50px">
+                <p class="text-light pl-2 pt-2 ms-5"><span><i class="fa fa-comments pr-3" aria-hidden="true" style="color:white;"></i></span> Mesajlaşma</p>
+             </footer>
+              </div>
+            <!--Footer End-->
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

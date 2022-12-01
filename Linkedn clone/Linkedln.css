@@ -1,0 +1,37 @@
+body {
+    background-color:rgb(240, 240, 240);
+}
+
+.dk {
+    border-left:1px solid white; 
+    height:58px;
+    position: absolute;
+    margin-left: 720px;
+}
+
+#profil {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    margin-top:50px;
+    margin-left:90px;
+    box-shadow: -5px 5px 5px gray;
+}
+
+.Pgörüntüleme {
+    margin-top: -13px;
+}
+
+#SayfaBildirimleri {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -15px;
+}
+
+#btnaside {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 75px;
+
+}
+
